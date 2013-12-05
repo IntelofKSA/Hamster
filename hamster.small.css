@@ -1,0 +1,119 @@
+/* Gaonnuri Hamster Small v1.0.0 Build 2013-11-24
+ * Copyright (c) 2013. Intel of KSA Students Union */
+ 
+.hamster {
+	width: 128px;
+	height: 128px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #000000;
+}
+
+.hamster .ear, .hamster .eye, .hamster .eyelight, .hamster .whiskers, .hamster .snout, .hamster .mouth, .hamster .desk, .hamster .paw {
+	position: absolute;
+}
+
+/* ear */
+.hamster .ear {
+	width: 30px;
+	height: 30px;
+	top: 14px;
+	background-image:         linear-gradient(to bottom, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	background-image:      -o-linear-gradient(top, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	background-image:    -moz-linear-gradient(top, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	background-image: -webkit-linear-gradient(top, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	border-radius: 16px;
+}
+
+.hamster .ear.left {
+	left: 0px;
+	        transform: rotate(-45deg);
+	     -o-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	   -moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.hamster .ear.right { 
+	left: 98px;
+	        transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+/* eye */
+.hamster .eye {
+	width: 22px;
+	height: 22px;
+	top: 48px;
+	background: #3A2005;
+	border-radius: 12px;
+}
+
+.hamster .eye.left {
+	left: 24px;
+}
+
+.hamster .eye.right {
+	left: 82px;
+}
+
+ /* head */
+.hamster .head {
+	width: 128px;
+	height: 128px;
+	margin: 16px auto 0;
+	background-image:         linear-gradient(to bottom, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	background-image:      -o-linear-gradient(top, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	background-image:    -moz-linear-gradient(top, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	background-image: -webkit-linear-gradient(top, #FAE5BF 77%, rgba(0,0,0,0) 77%);
+	border-radius: 64px;
+}
+
+.hamster .head .snout {
+	width: 90px;
+	height: 90px;
+	left: 19px;
+	margin: 64px auto 0;
+	background: #FFFFFF;
+	border-radius: 45px;
+}
+
+/* mouth */
+.hamster .mouth {
+	width: 24px;
+	height: 20px;
+	top: 90px;
+	left: 52px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background: #FA9090;
+}
+
+.hamster .desk {
+	width: 128px;
+	height: 14px;
+	top: 114px;
+	background: rgb(197, 163, 126);
+}
+
+/* paw */
+.hamster .paw {
+	width: 16px;
+	height: 16px;
+	top: 102px;
+	background: #FAF5F0;
+	border: 2px solid #3A2005;
+	border-radius: 10px;
+}
+
+.hamster .paw.left {
+	left: 14px;
+}
+
+.hamster .paw.right {
+	left: 98px;
+}
